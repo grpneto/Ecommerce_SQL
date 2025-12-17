@@ -1,4 +1,4 @@
--- Querie para recuperar o número de clientes
+-- Query para recuperar o número de clientes
 use ecommerce;
 show tables;
 desc clients;
@@ -6,7 +6,7 @@ select count(*) from clients;
 
 
 
--- Querie para verificar o número de pedidos
+-- Query para verificar o número de pedidos
 show tables;
 desc orders; 
 select 
